@@ -23,7 +23,7 @@ var app = require('./server/config/system/bootstrap')(passport, db);
 // app.listen(config.port, config.hostname);
 // console.log('Mean app started on port ' + config.port + ' (' + process.env.NODE_ENV + ')');
 app.listen(process.env.PORT || 3000, function(){
-  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+  console.log('Express server listening on port %d in %s mode', this.address().port, app.settings.env);
 });
 
 // Initializing logger
