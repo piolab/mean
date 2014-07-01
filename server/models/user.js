@@ -26,7 +26,7 @@ var UserSchema = new Schema({
     },
     email: {
         type: String,
-        required: true,
+        required: false,
         match: [/.+\@.+\..+/, 'Please enter a valid email'],
         validate: [validatePresenceOf, 'Email cannot be blank']
     },
@@ -38,6 +38,13 @@ var UserSchema = new Schema({
     roles: {
         type: Array,
         default: ['authenticated']
+    },
+    avatar: {
+        type: String,
+    },
+    description: {
+        type: String,
+         
     },
     hashed_password: {
         type: String,

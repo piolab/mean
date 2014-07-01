@@ -1,9 +1,10 @@
 'use strict';
 
 module.exports = {
-    db: 'mongodb://localhost/mean-prod',
+    //db: 'mongodb://localhost/mean-prod',
+    db:'mongodb://cuongcua:12345678@kahana.mongohq.com:10069/piolist',
     app: {
-        name: 'MEAN - A Modern Stack - Production'
+        name: 'Pinterest for learning'
     },
     facebook: {
         clientID: 'APP_ID',

@@ -27,6 +27,11 @@ Articles.register(function(app, auth, database) {
         'title': 'Create New Article',
         'link': 'create article'
     });
+    Articles.menus.add({
+        'roles': ['authenticated'],
+        'title': 'Create New Article 2',
+        'link': 'create article'
+    });
 
     /*
     //Uncomment to use. Requires meanio@0.3.7 or above
