@@ -98,6 +98,7 @@ $ bower cache clean
 ## Configuration
 All configuration is specified in the [server/config](server/config/) folder, particularly the [config.js](server/config/config.js) file and the [env](server/config/env/) files. Here you will need to specify your application name, database name, and hook up any social app keys if you want integration with Twitter, Facebook, GitHub, or Google.
 
+
 ### Environmental Settings
 
 There are three environments provided by default: __development__, __test__, and __production__.
